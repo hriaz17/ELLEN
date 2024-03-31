@@ -78,7 +78,7 @@ If you find this work useful, please consider citing:
 }
 ```
 
-## Usage and License Notices:
+## Usage and License Notices
 The code released in this repository is free to use for most circumstances under the MIT license.
 
 ## Contact
