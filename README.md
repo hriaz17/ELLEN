@@ -12,7 +12,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2305.11846-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2403.17385)
 
-## Introduction (Deep learning 🤝 Linguistics ⚡)
+## Introduction
 In this work, we revisit the problem of semi-supervised named entity recognition (NER) focusing on extremely light supervision, consisting of a lexicon containing only 10 examples per class. We introduce ELLEN, a simple, fully modular, neuro-symbolic method that blends fine-tuned language models with linguistic rules. These rules include insights such as "One Sense Per Discourse", using a Masked Language Model as an unsupervised NER, leveraging part-of-speech tags to identify and eliminate unlabeled entities as false negatives, and other intuitions about classifier confidence scores in local and global context. ELLEN achieves very strong performance on the CoNLL-2003 dataset when using the minimal supervision from the lexicon above. It also outperforms most existing (and considerably more complex) semi-supervised NER methods under the same supervision settings commonly used in the literature (i.e., 5% of the training data). Further, we evaluate our CoNLL-2003 model in a zero-shot scenario on WNUT-17 where we find that it outperforms GPT-3.5 and achieves comparable performance to GPT-4. In a zero-shot setting, ELLEN also achieves over 75% of the performance of a strong, fully supervised model trained on gold data.
 
 <p align="center">
@@ -20,7 +20,7 @@ In this work, we revisit the problem of semi-supervised named entity recognition
 </p>
 
 ## Code (Coming soon!)
-The camera ready code will be released over the next few weeks.
+The camera ready code will be released soon.
 
 ## Results
 
@@ -79,7 +79,7 @@ If you find this work useful, please consider citing:
 ```
 
 ## Usage and License Notices
-The code released in this repository is free to use for most circumstances under the MIT license.
+The code released in this repository will be free to use for most circumstances under the MIT license.
 
 ## Contact
 Haris Riaz (harisriaz1700@gmail.com) or (hriaz@arizona.edu)
